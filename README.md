@@ -55,6 +55,7 @@ The topics below outline what you learn in the live session. After the live sess
   
 ## [Grid and Forms](#grid-and-forms)   
 
+### Grid
  - CSS Grid Layout is a collection of CSS properties makes it easy to align items in rows **and** columns  
  - When using Grid, you need to turn an HTML element into a [grid container](https://www.w3schools.com/css/css_grid.asp) by setting its `display` property to `grid` 
  - By defining an HTML element as `grid`, you activate a collection of [grid properties](https://www.w3schools.com/css/css_grid_container.asp) that define the columns and rows inside it and also control how it aligns the elements inside it  
@@ -65,7 +66,22 @@ The topics below outline what you learn in the live session. After the live sess
  - One [simple Grid example](https://codepen.io/simoneas02/pen/gmREyQ) and another [simple Grid example](https://codepen.io/mozilladevelopers/pen/Xejyed)  
  - For a comprehensive explanation of Grid, visit [CSS Trick's Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)  
  - Use Grid in combination with Flexbox and `position` to create intuitive and user-friendly layouts  
- - Read about the [relationship between Grid and other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)   
+ - Read about the [relationship between Grid and other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout) 
+ 
+### Forms  
+
+- A form is used to collect input from users
+- Using HTML, you can create a form on your webpage  
+- You can use the HTML `form` tag to serve as a container for HTML form elements   
+- A `form` tag comes with [form attributes](https://www.w3schools.com/html/html_forms_attributes.asp), like an attribute for what the form does when it's submitted, where to display the response it receives after submitting, and more     
+- The HTML form elements than you can put inside a form include [labels, inputs, and buttons and more](https://www.w3schools.com/html/html_form_elements.asp)  
+- HTML [inputs have attributes](https://www.w3schools.com/html/html_form_attributes.asp) that let you define and control your elements, for instance, by setting their value, making them readonly, and more  
+- See here for more about [form input attributes](https://www.w3schools.com/html/html_form_attributes_form.asp)  
+- Here is a [comprehensive resource about `form` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)  
+- See an example of a [registration form](https://www.w3schools.com/howto/howto_css_register_form.asp)  
+- Learn [how to disable spell checking](https://www.tutorialrepublic.com/faq/how-to-disable-spell-checking-in-html-forms.php) in your forms  
+
+
 ## [HTML and CSS Live Coding](#html-and-css-live-coding)  
 
 The live coding session continues working on the live code from the previous lessons. Here are the tasks:
