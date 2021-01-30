@@ -18,12 +18,34 @@ The topics below outline what you learn in the live session. After the live sess
 
 ## [Position and Flexbox](#position-and-flexbox)   
 
-First, you learn about the `position` style property and its cousins `top`, `right`, `bottom`, and `left`. You can use these style properties to position a single element on the screen somewhere other than its default location. Next, you learn about Flexbox. This collection of CSS properties makes it easy to align items in a row *or* column. It's flexible properties make it a great solution for organizing content. 
+### Position  
 
-After Flexbox, you learn about CSS Grid Layout. This collection of CSS properties makes it easy to align items in rows *and* columns. This is a great solution when you need to organize information in two dimensions. You can use it in combination with Flexbox and `position` to create intuitive and user-friendly layouts.
+You can use the `position` style property in combination with its cousins `top`, `right`, `bottom`, and `left` to position an HTML element on the screen somewhere other than its default location.  
+
+- HTML elements by default have a collection of positioning properties  
+- The positioning properties are `position`, `top`, `right`, `bottom`, `left`, `clip`, and `z-index`  
+- Read about them at the bottom of the page about [positioning properties](https://www.w3schools.com/css/css_positioning.asp)  
+- An HTML element's default value for `position` is `static`  
+- `static` results in an HTML element rending on the screen in the order written in your document  
+- By setting the `position` value to something other than `static`, you can change the type of positioning method for that element  
+- The `position` values available are `static`, `relative`, `absolute`, `fixed`, `sticky`  
+- Each [positioning method has its own behavior](https://www.w3schools.com/cssref/pr_class_position.asp)  
+- Understand [how the positioning methods differ](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)  
+- Get [detailed definitions and see examples](https://developer.mozilla.org/en-US/docs/Web/CSS/position)  
+- One key concept to understand is [how to wrap an element inside a *positioned* ancestor](https://stackoverflow.com/a/4457821)  
+- Use [`top`, `right` `bottom`, and `left`](https://css-tricks.com/almanac/properties/t/top-right-bottom-left/) to place an element somewhere other than in its default location    
+- Use the [`z-index`](https://css-tricks.com/almanac/properties/z/z-index/) to control the order elements appear on the z-axis (i.e., the axis perpendicular to the plane of your screen)   
+- `top`, `right` `bottom`,`left` and `z-index` only impact *positioned* elements  
+- For more on `clip`, see [this description on W3Schools](https://www.w3schools.com/cssref/pr_pos_clip.asp)  
+
+### Flexbox
+Next, you learn about Flexbox. This collection of CSS properties makes it easy to align items in a row *or* column. It's flexible properties make it a great solution for organizing content.  
 
 
-## [Grid and Forms](#grid-and-forms)     
+
+
+## [Grid and Forms](#grid-and-forms)   
+After Flexbox, you learn about CSS Grid Layout. This collection of CSS properties makes it easy to align items in rows *and* columns. This is a great solution when you need to organize information in two dimensions. You can use it in combination with Flexbox and `position` to create intuitive and user-friendly layouts.  
   
 ## [HTML and CSS Live Coding](#html-and-css-live-coding)  
 
