@@ -86,6 +86,13 @@ The topics below outline what you learn in the live session. After the live sess
 
 The live coding session continues working on the live code from the previous lessons. Here are the tasks:
 
- 1. 
- 2. 
- 3.   
+1. Add a new html file to your project; create a link in your index.html file that takes the user to your new html page; link your new HTML page to the same stylesheet as the index.html file. 
+2. In your new html file, create three separate rows stacked vertically using Flexbox; style the rows so that you can see where one row starts and the other row ends  
+3. In the top row, nest three HTML elements and align the items horizontally; style each nested element so that you can see it's boundaries; make one of the elements grow twice as large as the others when extra space is available  
+4. In the middle row, nest three HTML elements and align the items vertically; for the top nested item, put text in the upper left corner; for the middle nested item, put text in the center; for the bottom nested element, put text in the bottom right corner  
+5. In the bottom row, add a form to your page and explicitly set three of of its attributes  
+6. Put four inputs in your form; two inputs must be text and the other two can be any input other than text (but not the same as each other)  
+7. Explicitly set two attributes for each of your form inputs  
+8. Add a custom CSS class to your form that includes at least 3 style properties  
+9. Add a submit button to your form  
+
