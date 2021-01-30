@@ -19,9 +19,7 @@ The topics below outline what you learn in the live session. After the live sess
 ## [Position and Flexbox](#position-and-flexbox)   
 
 ### Position  
-
-You can use the `position` style property in combination with its cousins `top`, `right`, `bottom`, and `left` to position an HTML element on the screen somewhere other than its default location.  
-
+ 
 - HTML elements by default have a collection of positioning properties  
 - The positioning properties are `position`, `top`, `right`, `bottom`, `left`, `clip`, and `z-index`  
 - Read about them at the bottom of the page about [positioning properties](https://www.w3schools.com/css/css_positioning.asp)  
@@ -39,11 +37,22 @@ You can use the `position` style property in combination with its cousins `top`,
 - For more on `clip`, see [this description on W3Schools](https://www.w3schools.com/cssref/pr_pos_clip.asp)  
 
 ### Flexbox
-Next, you learn about Flexbox. This collection of CSS properties makes it easy to align items in a row *or* column. It's flexible properties make it a great solution for organizing content.  
 
-
-
-
+  - Flexbox is a collection of CSS properties makes it easy to align items in a row *or* column   
+  - When using Flexbox, you need to turn an HTML element into a [flex container](https://www.w3schools.com/css/css3_flexbox.asp) by setting its `display` property to `flex`  
+  - By defining an HTML element as `flex`, you activate a collection of [flex properties](https://www.w3schools.com/css/css3_flexbox_container.asp) that control how it aligns the elements inside it  
+  - An element nested *directly* inside a flex container is a flex child    
+  - A flex child exhibits the flex behavior defined by the flex container  
+  - You can override the default flex child behavior by setting [flex properties for the child](https://www.w3schools.com/css/css3_flexbox_items.asp)  
+  - [See how Flexbox works](https://codepen.io/enxaneta/full/adLPwv) on CodePen      
+  - Common [use cases for using Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox)  
+  - Example of [centering items inside a flex container](https://codepen.io/danielwarren/pen/WzqBOZ)
+  - Elements nested inside a flex child are not influenced by the flex container  
+  - To learn about the flex properties and see examples, visit [CSS Trick's Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+  - Reinforce the [basics for Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)  
+  - Level up your understanding of flex child properties by [learning to control ratios of flex children on the main axis](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax)  
+  - Learn about [wrapping flex children](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items)  
+  
 ## [Grid and Forms](#grid-and-forms)   
 After Flexbox, you learn about CSS Grid Layout. This collection of CSS properties makes it easy to align items in rows *and* columns. This is a great solution when you need to organize information in two dimensions. You can use it in combination with Flexbox and `position` to create intuitive and user-friendly layouts.  
   
