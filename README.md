@@ -1,12 +1,12 @@
 # HTML and CSS: Layouts and Forms  
 
-Welcome to the fourth lesson! In this lesson, you learn the basics of layouts and forms. A webpage's layout is how the HTML elements are organized on the screen. Based on which HTML tag types you write in your code and the order of them, your page will have a default layout. In other words, when you load the page in the browser, the HTML elements will organize themselves based on the tag type and order written in your file.
+Welcome to the fourth lesson! In this lesson, you learn the basics of **layouts and forms**. A webpage's layout is how you organize the HTML elements on the screen. Based on which HTML tag types you write in your code and the order of them, your page will have a default layout. In other words, when you load the page in the browser, the HTML elements will organize themselves based on the tag type and order written in your file.
 
-Using various collections of CSS style properties, you can override the default layout. In this lesson, you learn about three different collections of style properties that help you customize your page layout. Specifically, you learn how to position a single HTML element, how to align multiple HTML elements in a row **or** column, and how to align multiple HTML elements in rows **and** columns.
+Using various collections of CSS style properties, you can override the default layout. In this lesson, you learn about **three different collections of style properties** that help you customize your page layout. Specifically, you learn how to position a single HTML element, align multiple HTML elements in a row **or** column, and align multiple HTML elements in rows **and** columns.  
 
-After learning about layouts, you learn about HTML forms. A form is a collection of HTML elements that allow a user to input and submit information. A form has one or more inputs and can also have one or more buttons. A form usually submits the information to a server. In this lesson, you learn about the different parts of HTML forms and how to customize them for your needs. If you entroll in [ITC's fullstack program](htps://www.itc.tech), you can learn how to send the information from a form to a server.
+After learning about layouts, you will learn about HTML forms. A form is a collection of HTML elements that allow a user to input and submit information. A form has one or more inputs and can also have one or more buttons. A form usually submits the information to a server. In this lesson, you learn about the different parts of HTML forms and how to customize them for your needs. If you enroll in [ITC's fullstack program](htps://www.itc.tech), you can learn how to send the information from a form to a server.
 
-At the end of this lesson, you see a live coding example for creating a page layout and adding a form to your page. The live coding session reinforce what you learn in the lesson. This lesson also helps prepare you for making your personal portfolio site. The code from the session is included in this repository. You can use it however you like, but as with any code you get from someone else, make sure you understand it well enough to explain it to someone before putting it in your own projects.  
+At the end of this lesson, you see a live coding example for creating a page layout and adding a form to your page. The live coding session reinforces what you learn in the lesson. This lesson also helps prepare you for making your personal portfolio site. The code from the session is included in this repository. You can use it however you like, but as with any code you get from someone else, make sure you understand it well enough to explain it to someone before putting it in your own projects.  
 
 In this lesson, you learn:  
 
@@ -14,13 +14,13 @@ In this lesson, you learn:
 - Hour 2: [Grid and Forms](#grid-and-forms)   
 - Hour 3: [HTML and CSS Live Coding](#html-and-css-live-coding)  
 
-The topics below outline what you learn in the live session. After the live session, you can use this material as a resource for guided self-learning. This document will serve you as a roadmap for gaining repetition with the material that you learn during the live session.   
+The topics below outline what you learn in the live session. After the live session, you can use this material as a resource for guided self-learning. This document will serve you as a roadmap for gaining repetition with the material that you learned during the live session.   
 
 ## [Position and Flexbox](#position-and-flexbox)   
 
 ### Position  
  
-- HTML elements by default have a collection of positioning properties  
+- HTML elements, by default, have a collection of positioning properties  
 - The positioning properties are `position`, `top`, `right`, `bottom`, `left`, `clip`, and `z-index`  
 - Read about them at the bottom of the page about [positioning properties](https://www.w3schools.com/css/css_positioning.asp)  
 - An HTML element's default value for `position` is `static`  
@@ -38,7 +38,7 @@ The topics below outline what you learn in the live session. After the live sess
 
 ### Flexbox
 
-  - Flexbox is a collection of CSS properties makes it easy to align items in a row **or** column   
+  - Flexbox is a collection of CSS properties for aligning items in a row **or** column   
   - When using Flexbox, you need to turn an HTML element into a [flex container](https://www.w3schools.com/css/css3_flexbox.asp) by setting its `display` property to `flex`  
   - By defining an HTML element as `flex`, you activate a collection of [flex properties](https://www.w3schools.com/css/css3_flexbox_container.asp) that control how it aligns the elements inside it  
   - An element nested *directly* inside a flex container is a flex child    
@@ -56,7 +56,7 @@ The topics below outline what you learn in the live session. After the live sess
 ## [Grid and Forms](#grid-and-forms)   
 
 ### Grid
- - CSS Grid Layout is a collection of CSS properties makes it easy to align items in rows **and** columns  
+ - CSS Grid Layout is a collection of CSS properties for aligning items in rows **and** columns  
  - When using Grid, you need to turn an HTML element into a [grid container](https://www.w3schools.com/css/css_grid.asp) by setting its `display` property to `grid` 
  - By defining an HTML element as `grid`, you activate a collection of [grid properties](https://www.w3schools.com/css/css_grid_container.asp) that define the columns and rows inside it and also control how it aligns the elements inside it  
  - An element nested *directly* inside a grid container is a grid item    
@@ -74,8 +74,8 @@ The topics below outline what you learn in the live session. After the live sess
 - Using HTML, you can create a form on your webpage  
 - You can use the HTML `form` tag to serve as a container for HTML form elements   
 - A `form` tag comes with [form attributes](https://www.w3schools.com/html/html_forms_attributes.asp), like an attribute for what the form does when it's submitted, where to display the response it receives after submitting, and more     
-- The HTML form elements than you can put inside a form include [labels, inputs, and buttons and more](https://www.w3schools.com/html/html_form_elements.asp)  
-- HTML [inputs have attributes](https://www.w3schools.com/html/html_form_attributes.asp) that let you define and control your elements, for instance, by setting their value, making them readonly, and more  
+- The HTML form elements that you can put inside a form include [labels, inputs, and buttons and more](https://www.w3schools.com/html/html_form_elements.asp)  
+- HTML [inputs have attributes](https://www.w3schools.com/html/html_form_attributes.asp) that let you define and control your elements, for instance, by setting their value, making them read only, and more  
 - See here for more about [form input attributes](https://www.w3schools.com/html/html_form_attributes_form.asp)  
 - Here is a [comprehensive resource about `form` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)  
 - See an example of a [registration form](https://www.w3schools.com/howto/howto_css_register_form.asp)  
@@ -88,9 +88,9 @@ The live coding session continues working on the live code from the previous les
 
 1. Add a new html file to your project; create a link in your index.html file that takes the user to your new html page; link your new HTML page to the same stylesheet as the index.html file. 
 2. In your new html file, create three separate rows stacked vertically using Flexbox; style the rows so that you can see where one row starts and the other row ends  
-3. In the top row, nest three HTML elements and align the items horizontally; style each nested element so that you can see it's boundaries; make one of the elements grow twice as large as the others when extra space is available  
+3. In the top row, nest three HTML elements and align the items horizontally; style each nested element so that you can see its boundaries; make one of the elements grow twice as large as the others when extra space is available  
 4. In the middle row, nest three HTML elements and align the items vertically; for the top nested item, put text in the upper left corner; for the middle nested item, put text in the center; for the bottom nested element, put text in the bottom right corner  
-5. In the bottom row, add a form to your page and explicitly set three of of its attributes  
+5. In the bottom row, add a form to your page and explicitly set three of its attributes  
 6. Put four inputs in your form; two inputs must be text and the other two can be any input other than text (but not the same as each other)  
 7. Explicitly set two attributes for each of your form inputs  
 8. Add a custom CSS class to your form that includes at least 3 style properties  
